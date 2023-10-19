@@ -4,8 +4,8 @@ version: 8.7.1+45
 publish_to: none
 
 environment:
-  sdk: '>=3.1.0'
-  flutter: '>=3.13.0'
+  sdk: ">=3.1.0"
+  flutter: ">=3.13.0"
 
 dependencies:
   flutter:
@@ -15,7 +15,8 @@ dependencies:
 
   wechat_assets_picker:
     path: ../
-  wechat_camera_picker: ^4.0.0
+  wechat_camera_picker:
+    path: ../../flutter_wechat_camera_picker
 
   extended_image: ^8.1.0
   package_info_plus: ^4.0.0
